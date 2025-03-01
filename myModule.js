@@ -1,5 +1,11 @@
 console.log("Entered myModule.js");
 
-function myFunction() {
-    console.log("Hello from myFunction!");
-}
+async function myFunction() { 
+    try { 
+      const result = await myPromise; 
+      console.log(result); 
+    } catch (error) { 
+      console.log(error); 
+    } 
+} 
+   
