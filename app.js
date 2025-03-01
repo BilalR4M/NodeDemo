@@ -40,6 +40,7 @@ https.get('https://jsonplaceholder.typicode.com/posts/1', (resp) => {
 const myModule = require('./my-module.js'); 
 console.log(myModule.myFunction()); 
 
+// my promise
 const myPromise = new Promise((resolve, reject) => { 
     if (condition) { 
       resolve('Success!'); 
